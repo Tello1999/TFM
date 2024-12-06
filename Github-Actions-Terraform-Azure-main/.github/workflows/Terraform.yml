@@ -5,6 +5,7 @@ on:
     branches:
     - main
     - pepito
+    - master
   pull_request:
 
 jobs:
