@@ -4,7 +4,7 @@ on:
   push:
     branches:
     - main
-    - pepito
+    - feature/294362a1-9326-4cd8-9159-2d228a86e1b8
     - master
   pull_request:
 
