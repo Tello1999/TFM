@@ -1,4 +1,4 @@
-/*variable "vname" {
+variable "vname" {
   type = string
 }
 variable "location" {
@@ -6,4 +6,4 @@ variable "location" {
 }
 variable "rgname" {
   type = string
-}*/
+}
