@@ -17,10 +17,11 @@ module "SA" {
   rgname   = var.rgname
   location = var.location
 }
-/*
+
 module "VN" {
   source   = "./modules/VN"
-  vname    = var.vname
+}
+
+/*  vname    = var.vname
   rgname   = var.rgname
-  location = var.location
-}*/
+  location = var.location*/
