@@ -1,6 +1,6 @@
 module "SA@@id@@" {
   source   = "./modules/StorageAccount"
-  vname    = "@@vname@@"
+  sname    = "@@sname@@"
   rgname   = "@@rgname@@"
   location = "@@location@@"
 }
