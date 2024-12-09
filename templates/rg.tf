@@ -1,5 +1,5 @@
 module "RG@@id@@" {
-  source   = "./modules/RG" #A
-  rgname   = "@@rgname@@"     #B
+  source   = "./modules/RG"
+  rgname   = "@@rgname@@"
   location = "@@location@@"
 }
