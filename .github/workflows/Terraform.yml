@@ -3,9 +3,7 @@ name: 'Terraform'
 on:
   push:
     branches:
-    - main
-    - pepito
-    - master
+    - @@uuid@@
   pull_request:
 
 jobs:
