@@ -4,7 +4,7 @@ on:
   push:
     branches:
     - main
-    - @@uuid@@
+    - feature/21559e3e-0db8-4b6d-a6ec-1a2043ddf0f4
   pull_request:
 
 jobs:
