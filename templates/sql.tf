@@ -1,12 +1,12 @@
 module "SQLSERVER" {
   source = "./modules/SQL"
-  servername = "servidorsql"
-  serverrgname = "github-action"
-  serverlocation = "East US"
-  administrator_login = "master"
-  administrator_login_password = "trabajomaster1."
+  servername = "@@servername@@"
+  serverrgname = "@@serverrgname@@"
+  serverlocation = "@@serverlocation@@"
+  administrator_login = "@@administrator_login@@"
+  administrator_login_password = "@@administrator_login_password@@."
 }
 module "dbsql" {
   source = "./modules/SQL"
-  dbname = "exampledb"
+  dbname = "@@dbname@@"
 }
