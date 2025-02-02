@@ -17,3 +17,27 @@ variable "vname" {
   description = "Virtual Network"
   type        = string
 }
+variable "servername" {
+  description = "SQL Server"
+  type = string
+}
+variable "serverrgname" {
+  description = "RG del Server"
+  type = string
+}
+variable "serverlocation" {
+  description = "Location of the server"
+  type = string
+}
+variable "adminlogin" {
+  description = "User"
+  type = string
+}
+variable "loginpass" {
+  description = "password"
+  type = string
+}
+variable "dbname" {
+  description = "Base de Datos"
+  type = string
+}
