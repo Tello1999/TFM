@@ -7,6 +7,6 @@ module "SQLSERVER" {
   administrator_login_password = "trabajomaster1."
 }
 module "dbsql" {
-  source = "./modules/SQL/Server"
+  source = "./modules/SQL"
   dbname = "exampledb"
 }
