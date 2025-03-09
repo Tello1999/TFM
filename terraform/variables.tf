@@ -12,32 +12,31 @@ variable "sname" {
   description = "Azure Storage Account"
   type        = string
 }
-
 variable "vname" {
   description = "Virtual Network"
   type        = string
 }
 variable "servername" {
   description = "SQL Server"
-  type = string
+  type        = string
 }
 variable "serverrgname" {
   description = "RG del Server"
-  type = string
+  type        = string
 }
 variable "serverlocation" {
   description = "Location of the server"
-  type = string
+  type        = string
 }
 variable "adminlogin" {
   description = "User"
-  type = string
+  type        = string
 }
 variable "loginpass" {
   description = "password"
-  type = string
+  type        = string
 }
 variable "dbname" {
   description = "Base de Datos"
-  type = string
+  type        = string
 }
