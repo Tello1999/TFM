@@ -5,8 +5,6 @@ module "SQLSERVER" {
   serverlocation               = "@@serverlocation@@"
   administrator_login          = "@@administrator_login@@"
   administrator_login_password = "@@administrator_login_password@@."
-}
-module "dbsql" {
-  source = "./modules/SQL"
   dbname = "@@dbname@@"
 }
+
