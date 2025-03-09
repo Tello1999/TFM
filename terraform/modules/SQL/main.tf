@@ -3,8 +3,8 @@ resource "azurerm_mssql_server" "example" {
   resource_group_name          = var.serverrgname
   location                     = var.serverlocation
   version                      = "12.0"
-  administrator_login          = var.administrator_login
-  administrator_login_password = var.administrator_login_password
+  administrator_login          = var.adminlogin
+  administrator_login_password = var.loginpass
 }
 resource "azurerm_mssql_database" "exampledb" {
   name         = var.dbname
